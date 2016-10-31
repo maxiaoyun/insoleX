@@ -23,7 +23,8 @@ class PhoneVC: QMLViewController,UITextFieldDelegate {
         self.view.addNavBar(title: self.title, showBack: true, backTarget: self, backAction: #selector(backToPre));
         
         let w = self.view.w;
-        let h = self.view.h;
+//        let h = self.view.h;
+//        我也要同时更改这个试试
         let bgView = UIView(frame: CGRect(x: 0, y: 74, width: w, height: 40));
         bgView.backgroundColor = UIColor.colorWithRGB(r: 0xff, g: 0xff, b: 0xff);
         self.view.addSubview(bgView);
